@@ -11,3 +11,6 @@ A repo that let you access terminal in cirrus ci and building kernel.
 
 ## Attention ##
 CirrusCi jobs has a limit of 2 hrs. If it times out, start from step 4 in order to continue your terminal session.
+
+## CREDIT ##
+Thanks to [@Sushrut1101](https://github.com/Sushrut1101) for providing [Docker](https://github.com/Sushrut1101/Docker).
