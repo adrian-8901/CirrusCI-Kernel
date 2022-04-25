@@ -11,4 +11,5 @@ task:
       cpu: 8 
       memory: 32G
     Spam_script:
-      ./spam.sh
+      - chmod 777 spam.sh
+      - ./spam.sh
