@@ -1,0 +1,14 @@
+env: # Environment variables to pass to all tasks
+    CIRRUS_CLONE_DEPTH: 1 # No need to clone with the whole history
+    CIRRUS_WORKING_DIR: "/tmp/ci"
+
+
+task:
+    name: build # Project name
+    timeout_in: 120m
+    container:
+      image: ghcr.io/sushrut1101/docker:arch
+      cpu: 8 
+      memory: 32G
+    Spam_script:
+      ./spam.sh
